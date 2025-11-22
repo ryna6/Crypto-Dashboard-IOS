@@ -1,1 +1,190 @@
+:root {
+  color-scheme: dark;
+  --bg: #050710;
+  --bg-elevated: #101320;
+  --bg-header: #070a13;
+  --accent: #39d0ff;
+  --accent-soft: rgba(57, 208, 255, 0.15);
+  --text: #f8f9ff;
+  --text-muted: #9aa0c2;
+  --border: #23263a;
+}
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+    "Inter", sans-serif;
+  background: radial-gradient(circle at top left, #15182a 0, #050710 40%, #000 100%);
+  color: var(--text);
+}
+
+/* APP LAYOUT */
+
+.app-root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 480px;
+  margin: 0 auto;
+  background: linear-gradient(180deg, #050710 0%, #020309 100%);
+}
+
+.app-header {
+  padding: 10px 14px 6px;
+  padding-top: calc(10px + env(safe-area-inset-top, 0));
+  background: var(--bg-header);
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  position: relative;
+  z-index: 10;
+}
+
+.app-header-title {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.app-header-subtitle {
+  margin-top: 3px;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.app-main {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+/* EXTERNAL PAGE */
+
+.external-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.external-page-header {
+  padding: 10px 14px 8px;
+  background: rgba(10, 12, 26, 0.96);
+  border-bottom: 1px solid var(--border);
+}
+
+.external-page-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.external-page-subtitle {
+  margin-top: 2px;
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.external-page-source {
+  margin-top: 4px;
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.open-browser-btn {
+  margin-top: 8px;
+  padding: 6px 10px;
+  font-size: 12px;
+  border-radius: 999px;
+  border: 1px solid var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.open-browser-btn:active {
+  transform: scale(0.97);
+}
+
+.external-page-note {
+  margin-top: 4px;
+  font-size: 10px;
+  color: var(--text-muted);
+}
+
+.external-page-frame-wrapper {
+  flex: 1;
+  min-height: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.external-page-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: #000;
+}
+
+/* TAB BAR */
+
+.tabbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 6px 6px;
+  padding-bottom: calc(6px + env(safe-area-inset-bottom, 0));
+  background: rgba(7, 8, 18, 0.98);
+  border-top: 1px solid var(--border);
+  backdrop-filter: blur(20px);
+}
+
+.tabbar-item {
+  flex: 1;
+  margin: 0 3px;
+  padding: 5px 4px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 11px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.tabbar-item-active {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-color: rgba(57, 208, 255, 0.6);
+}
+
+.tabbar-label {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Small screens */
+
+@media (max-width: 360px) {
+  .app-header-title {
+    font-size: 15px;
+  }
+  .app-header-subtitle {
+    font-size: 11px;
+  }
+  .tabbar-label {
+    font-size: 10px;
+  }
+}
