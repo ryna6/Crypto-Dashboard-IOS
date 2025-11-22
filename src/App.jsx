@@ -22,6 +22,7 @@ const TABS = [
   {
     id: "liqheat",
     label: "BTC Liq Heat",
+    title: "BTC Liquidation Heatmap",
     url: "https://www.coinglass.com/pro/futures/LiquidationHeatMap",
     source: "CoinGlass",
     offsetTop: 120,
@@ -30,6 +31,7 @@ const TABS = [
   {
     id: "spotflows",
     label: "BTC Flows",
+    title: "BTC Net Flows",
     url: "https://www.coinglass.com/spot-inflow-outflow",
     source: "CoinGlass",
     offsetTop: 120,
