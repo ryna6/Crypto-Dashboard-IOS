@@ -1,7 +1,6 @@
 // src/components/ExternalPage.jsx
 
 export function ExternalPage({
-  title,
   url,
   source,
   offsetTop = 0,
