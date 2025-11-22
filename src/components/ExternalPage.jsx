@@ -31,10 +31,6 @@ export function ExternalPage({
     <div className="external-page">
       <div className="external-page-header">
         <div className="external-page-title">{title}</div>
-        <div className="external-page-subtitle">{subtitle}</div>
-        <div className="external-page-source">
-          Data & charts provided by <strong>{source}</strong>.
-        </div>
         <button
           type="button"
           className="open-browser-btn"
@@ -42,10 +38,6 @@ export function ExternalPage({
         >
           Open in Browser
         </button>
-        <p className="external-page-note">
-          This view crops the CoinGlass page to show just the main chart. If it
-          ever looks off, tap <strong>Open in Browser</strong>.
-        </p>
       </div>
 
       <div className="external-page-frame-wrapper" style={wrapperStyle}>
