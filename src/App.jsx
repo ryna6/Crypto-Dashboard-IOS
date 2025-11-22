@@ -12,7 +12,7 @@ const TABS = [
   },
   {
     id: "liqmap",
-    label: "BTC Liq Map",
+    label: "Liq Map",
     title: "BTC Liquidation Map",
     url: "https://www.coinglass.com/pro/futures/LiquidationMap",
     source: "CoinGlass",
@@ -21,7 +21,7 @@ const TABS = [
   },
   {
     id: "liqheat",
-    label: "BTC Liq Heat",
+    label: "Liq Heatmap",
     title: "BTC Liquidation Heatmap",
     url: "https://www.coinglass.com/pro/futures/LiquidationHeatMap",
     source: "CoinGlass",
