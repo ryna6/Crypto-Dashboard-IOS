@@ -2,6 +2,7 @@
 
 export function ExternalPage({
   title,
+  subtitle,
   url,
   source,
   offsetTop = 0,
