@@ -18,6 +18,7 @@ export function ExternalPage({
     height: cropHeight ? `${cropHeight}px` : "100%",
     border: "none",
     background: "#000",
+    touchAction: "none", // Prevents scrolling for browser element
   };
 
   const wrapperStyle = {
