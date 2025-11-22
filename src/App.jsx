@@ -8,14 +8,12 @@ const TABS = [
   {
     id: "heatmap",
     label: "Heatmap",
-    title: "Crypto Market Heatmap",
     subtitle: "Live multi-coin heatmap from CoinGecko",
   },
   {
     id: "liqmap",
     label: "BTC Liq Map",
     title: "BTC Liquidation Map",
-    subtitle: "BTCUSDT futures liquidation map (CoinGlass)",
     url: "https://www.coinglass.com/pro/futures/LiquidationMap",
     source: "CoinGlass",
     offsetTop: 120,   // tweak this value
@@ -25,7 +23,6 @@ const TABS = [
     id: "liqheat",
     label: "BTC Liq Heat",
     title: "BTC Liquidation Heatmap",
-    subtitle: "BTCUSDT liquidation heatmap (CoinGlass)",
     url: "https://www.coinglass.com/pro/futures/LiquidationHeatMap",
     source: "CoinGlass",
     offsetTop: 120,
@@ -35,7 +32,6 @@ const TABS = [
     id: "spotflows",
     label: "BTC Flows",
     title: "BTC Net Flows",
-    subtitle: "Bitcoin spot inflow/outflow (CoinGlass)",
     url: "https://www.coinglass.com/spot-inflow-outflow",
     source: "CoinGlass",
     offsetTop: 120,
