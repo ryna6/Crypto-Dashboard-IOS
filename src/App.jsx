@@ -34,8 +34,8 @@ const TABS = [
     title: "BTC Net Flows",
     url: "https://www.coinglass.com/spot-inflow-outflow",
     source: "CoinGlass",
-    offsetTop: 200,
-    cropHeight: 600,
+    offsetTop: 240,
+    cropHeight: 900,
   },
 ];
 
