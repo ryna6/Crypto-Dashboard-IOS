@@ -16,7 +16,7 @@ const TABS = [
     title: "BTC Liquidation Map",
     url: "https://www.coinglass.com/pro/futures/LiquidationMap",
     source: "CoinGlass",
-    offsetTop: 120,   // tweak this value
+    offsetTop: 240,   // tweak this value
     cropHeight: 750,  // tweak this value
   },
   {
@@ -25,7 +25,7 @@ const TABS = [
     title: "BTC Liquidation Heatmap",
     url: "https://www.coinglass.com/pro/futures/LiquidationHeatMap",
     source: "CoinGlass",
-    offsetTop: 120,
+    offsetTop: 280,
     cropHeight: 800,
   },
   {
