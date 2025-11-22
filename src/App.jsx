@@ -45,7 +45,6 @@ export default function App() {
     <div className="app-root">
       <header className="app-header">
         <div className="app-header-title">Crypto Dashboard</div>
-        <div className="app-header-subtitle">{currentTab.title}</div>
       </header>
 
       <main className="app-main">
