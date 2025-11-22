@@ -44,7 +44,7 @@ const TABS = [
     url: "https://www.coinglass.com/pro/futures/Liquidations",
     source: "CoinGlass",
     offsetTop: 340,
-    cropHeight: 930,
+    cropHeight: 910,
   },
 ];
 
