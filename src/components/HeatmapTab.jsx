@@ -25,7 +25,7 @@ export function HeatmapTab() {
 
       <div className="heatmap-widget-wrapper">
         {/* Custom element provided by CoinGecko's widget script */}
-        <coingecko-coin-heatmap-widget height="600" locale="en"></coingecko-coin-heatmap-widget>
+        <coingecko-coin-heatmap-widget height="550" locale="en"></coingecko-coin-heatmap-widget>
       </div>
     </div>
   );
