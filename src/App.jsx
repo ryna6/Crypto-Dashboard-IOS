@@ -33,10 +33,10 @@ const TABS = [
   },
   {
     id: "spotflows",
-    label: "BTC Spot",
-    title: "BTC Spot Flows",
+    label: "BTC Flows",
+    title: "BTC Net Flows",
     subtitle: "Bitcoin spot inflow/outflow (CoinGlass)",
-    url: "https://www.coinglass.com/currencies/BTC?type=spot",
+    url: "https://www.coinglass.com/spot-inflow-outflow",
     source: "CoinGlass",
     offsetTop: 120,
     cropHeight: 450,
