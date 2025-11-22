@@ -39,6 +39,7 @@ export function ExternalPage({
           src={url}
           style={frameStyle}
           loading="lazy"
+          scrolling="no"
         />
       </div>
     </div>
