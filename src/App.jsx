@@ -17,7 +17,7 @@ const TABS = [
     url: "https://www.coinglass.com/pro/futures/LiquidationMap",
     source: "CoinGlass",
     offsetTop: 380,   // Removes top section of the website
-    cropHeight: 850,  // Removes bottom section of the website embed
+    cropHeight: 870,  // Removes bottom section of the website embed
   },
   {
     id: "liqheat",
@@ -35,7 +35,7 @@ const TABS = [
     url: "https://www.coinglass.com/spot-inflow-outflow",
     source: "CoinGlass",
     offsetTop: 240,
-    cropHeight: 670,
+    cropHeight: 650,
   },
   {
     id: "liqhistory",
@@ -43,8 +43,8 @@ const TABS = [
     title: "BTC Liquidation History",
     url: "https://www.coinglass.com/pro/futures/Liquidations",
     source: "CoinGlass",
-    offsetTop: 260,
-    cropHeight: 910,
+    offsetTop: 280,
+    cropHeight: 900,
   },
 ];
 
