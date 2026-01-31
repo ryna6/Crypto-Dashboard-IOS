@@ -34,7 +34,7 @@ const TABS = [
     title: "BTC Net Flows",
     url: "https://www.coinglass.com/spot-inflow-outflow",
     source: "CoinGlass",
-    offsetTop: 240,
+    offsetTop: 250,
     cropHeight: 670,
   },
   {
@@ -43,7 +43,7 @@ const TABS = [
     title: "BTC Liquidation History",
     url: "https://www.coinglass.com/pro/futures/Liquidations",
     source: "CoinGlass",
-    offsetTop: 320,
+    offsetTop: 300,
     cropHeight: 910,
   },
 ];
